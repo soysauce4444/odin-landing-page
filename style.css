@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
