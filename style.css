@@ -1,12 +1,28 @@
 body {
     display: flex;
     flex-direction: column;
+    padding: 0 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
 }
 
 ul {
     display: flex;
+    margin-left: auto;
+    gap: 15px;
 }
 
 li {
     list-style: none;
+    font-size: 18px;
+    
 }
+    color: #E5E7EB;
+
+.container {
+
+}
+
