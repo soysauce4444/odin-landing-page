@@ -10,10 +10,14 @@ header {
     align-items: center;
 }
 
+header, .container {
+    padding: 0 100px;
+}
+
 ul {
     display: flex;
     margin-left: auto;
-    gap: 15px;
+    gap: 30px;
 }
 
 .header {
@@ -36,6 +40,7 @@ div.content, li {
 
 .container {
     display: flex;
+    gap: 50px;
 }
 
 .text {
@@ -53,4 +58,6 @@ button {
     /* call to action background */
     background-color: #3882F6; 
     color: white;
+    border: none;
+    margin-top: 13px;
 }
