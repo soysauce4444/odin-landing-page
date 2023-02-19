@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    padding: 0 100px;
+    margin: 0;
 }
 
 header {
@@ -35,6 +35,12 @@ div.content, li {
 
 .container {
     display: flex;
+}
+
+.text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
 }
 
 img {
