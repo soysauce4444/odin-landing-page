@@ -61,17 +61,32 @@ button {
     font-weight: bold;
 }
 
-img {
-    width: 500px;
-    height: 300px;
-}
-
-.info {
-    text-align: center;
-}
-
 .info-header {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    padding: 30px;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 75px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.img-container, img {
+    width: 125px;
+}
+
+img {
+    height: 125px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
